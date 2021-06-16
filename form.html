@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
+<title>FeedBack Form With Email Functionality</title>
+<link href="style.css" rel="stylesheet">
 </head>
-
+<!-- Body Starts Here -->
 <body>
-    <div>
-        <form method="post" name="myemailform" action="form-to-email.php">
-            <label for="name">Enter Name:</label>
-            <input type="text" name="name">
-
-            <label for="email">Enter Email Address:</label>
-            <input type="email" name="email">
-
-            <label for="message">Enter Message:</label>
-            <textarea name="message"></textarea>
-            <label for="submit"></label>
-            <input type="submit" value="Send Form">
-        </form>
-    </div>
+<div class="container">
+<!-- Feedback Form Starts Here -->
+<div id="feedback">
+<!-- Heading Of The Form -->
+<div class="head">
+<h3>FeedBack Form</h3>
+<p>This is feedback form. Send us your feedback !</p>
+</div>
+<!-- Feedback Form -->
+<form action="#" id="form" method="post" name="form">
+<input name="vname" placeholder="Your Name" type="text" value="">
+<input name="vemail" placeholder="Your Email" type="text" value="">
+<input name="sub" placeholder="Subject" type="text" value="">
+<label>Your Suggestion/Feedback</label>
+<textarea name="msg" placeholder="Type your text here..."></textarea>
+<input id="send" name="submit" type="submit" value="Send Feedback">
+</form>
+<h3><?php include "secure_email_code.php"?></h3>
+</div>
+<!-- Feedback Form Ends Here -->
+</div>
 </body>
-
+<!-- Body Ends Here -->
 </html>
