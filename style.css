@@ -1,23 +1,20 @@
+
 form {
     overflow: hidden;
     display: grid;
-    grid-template-columns: 200px 1fr;
-
-    
+    grid-template-columns: 300px;
+    grid-gap: 10px;
 }
  
 label {
-    float: left;
-    width: 200px;
-    padding-right: 24px;
+    color: blue;
 }
  
-input {
-    float: left;
-    width: calc(100% - 200px);
+input,textarea {
+    background-color: lightgray;
 }
  
 button {
     float: right;
-    width: calc(100% - 200px);
+    width: 100px;
 }
