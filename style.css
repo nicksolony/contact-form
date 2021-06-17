@@ -55,7 +55,8 @@ div#feedback {
     border-radius: 3px;
     border: 1px solid #cd853f;
     font-family: 'Raleway', sans-serif;
-    float: left
+    margin: 0 auto;
+
 }
 
 .container {
