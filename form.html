@@ -6,7 +6,7 @@
 </head>
 <!-- Body Starts Here -->
 <body>
-<div class="container">
+<!-- <div class="container"> -->
 <!-- Feedback Form Starts Here -->
 <div id="feedback">
 <!-- Heading Of The Form -->
@@ -16,13 +16,14 @@
 </div>
 <!-- Feedback Form -->
 <form action="https://script.google.com/macros/s/AKfycbzMXPnyRoptBpSghhdDDQb1jY6ouAn7FHdoSKRONQ/exec" id="form" method="post" name="form">
+    <div class="form-elements">
 <input name="name" placeholder="Your Name" type="text" value="" required>
 <input name="email" placeholder="Your Email" type="email" value="" required>
 <input name="subject" placeholder="Subject" type="text" value="">
 <label>Your Suggestion/Feedback</label>
 <textarea name="message" placeholder="Type your text here..."></textarea>
 <button id="send">Send </button>
-
+</div>
 <div class="thankyou_message" style="display:none;">
     <h2><em>Thanks</em> for contacting us!
       We will get back to you soon!</h2>
@@ -31,7 +32,7 @@
 </form>
 </div>
 <!-- Feedback Form Ends Here -->
-</div>
+<!-- </div> -->
 <script data-cfasync="false" type="text/javascript"
   src="form-submission-handler.js"></script>
 </body>
