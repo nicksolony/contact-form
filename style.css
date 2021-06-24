@@ -50,7 +50,7 @@ div#feedback {
     text-align: left;
     height: 520px;
     width: 330px;
-    padding: 20px 25px 20px 15px;
+    padding: 20px 25px 0px 15px;
     /* background-color: #f3f3f3; */
     /* border-radius: 3px; */
     /* border: 1px solid #cd853f; */
@@ -61,7 +61,7 @@ div#feedback {
 
 .container {
     width: 960px;
-    margin: 40px auto
+    margin: 0px auto
 }
 
 #logo-container img {
@@ -74,3 +74,11 @@ div#feedback {
      width: 75%;
  }
  
+ .thankyou_message {
+     font-family: "Century Gothic";
+ }
+
+ #msg {
+     margin-top: 0%;
+     padding: 0%;
+ }
