@@ -20,9 +20,9 @@ input {
     margin-bottom: 20px;
     padding: 5px;
     height: 30px;
-    box-shadow: 1px 1px 12px gray;
-    border-radius: 3px;
-    border: none
+    /* box-shadow: 1px 1px 12px gray; */
+    /* border-radius: 3px; */
+    /* border: none */
 }
 
 textarea {
@@ -30,8 +30,8 @@ textarea {
     height: 80px;
     margin-top: 10px;
     padding: 5px;
-    box-shadow: 1px 1px 12px gray;
-    border-radius: 3px
+    /* box-shadow: 1px 1px 12px gray;
+    border-radius: 3px */
 }
 
 #send {
@@ -39,7 +39,7 @@ textarea {
     height: 45px;
     margin-top: 40px;
     border-radius: 3px;
-    background-color: #cd853f;
+    background-color: #1B7796;
     border: 1px solid #fff;
     color: #fff;
     font-family: "Century Gothic";
@@ -51,9 +51,9 @@ div#feedback {
     height: 520px;
     width: 330px;
     padding: 20px 25px 20px 15px;
-    background-color: #f3f3f3;
-    border-radius: 3px;
-    border: 1px solid #cd853f;
+    /* background-color: #f3f3f3; */
+    /* border-radius: 3px; */
+    /* border: 1px solid #cd853f; */
     font-family: "Century Gothic";
     margin: 0 auto;
 
