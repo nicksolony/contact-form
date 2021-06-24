@@ -41,7 +41,7 @@ textarea {
     background-color: #cd853f;
     border: 1px solid #fff;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Century Gothic";
     font-size: 18px
 }
 
@@ -53,7 +53,7 @@ div#feedback {
     background-color: #f3f3f3;
     border-radius: 3px;
     border: 1px solid #cd853f;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Century Gothic";
     margin: 0 auto;
 
 }
@@ -63,9 +63,13 @@ div#feedback {
     margin: 40px auto
 }
 
-.logo {
-    background-image: url("img/logo.png");
-    width: 100%;
-    height:300px;
-    background-repeat: no-repeat;
-}
+#logo-container img {
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+ }
+
+ hr {
+     width: 75%;
+ }
+ 
