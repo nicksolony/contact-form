@@ -16,18 +16,22 @@
     <!-- Feedback Form Starts Here -->
     <div id="feedback">
         <!-- Heading Of The Form -->
-        <div class="head">
-            <h3>FeedBack Form</h3>
-            <p>This is feedback form. Send us your feedback !</p>
+        <div>
+            <p>However, if you simply can't wait to learn what we are up to - get in touch!</p>
         </div>
         <!-- Feedback Form -->
         <form action="https://script.google.com/macros/s/AKfycbzMXPnyRoptBpSghhdDDQb1jY6ouAn7FHdoSKRONQ/exec" id="form"
             method="post" name="form">
             <div class="form-elements">
+                <label for="name">Name</label>
                 <input name="name" placeholder="Your Name" type="text" value="" required>
-                <input name="email" placeholder="Your Email" type="email" value="" required>
-                <input name="subject" placeholder="Subject" type="text" value="">
-                <label>Your Suggestion/Feedback</label>
+                <label for="email">Business E-mail</label>
+                <input name="email" placeholder="Your Business E-mail" type="email" value="" required>
+                <label for="company">Company</label>
+                <input name="company" placeholder="Company Name" type="text" value="">
+                <label for="role">Role</label>
+                <input name="role" placeholder="Your Role" type="text" value="">
+                <label for="message">Your Message</label>
                 <textarea name="message" placeholder="Type your text here..."></textarea>
                 <button id="send">Send </button>
             </div>
